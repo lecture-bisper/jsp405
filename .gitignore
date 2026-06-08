@@ -1,21 +1,23 @@
-.gradle
-build/
-!gradle/wrapper/gradle-wrapper.jar
-!**/src/main/**/build/
-!**/src/test/**/build/
-.kotlin
-
 ### IntelliJ IDEA ###
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
+.idea
 *.iws
 *.iml
 *.ipr
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
 
 ### Eclipse ###
 .apt_generated
@@ -41,3 +43,31 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+### 추가 내용 ###
+.idea/
+**/src/main/resources/static/**/bootstrap*
+**/src/main/resources/static/**/jquery*
+**/css/bootstrap*
+**/js/bootstrap*
+**/js/jquery*
+
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+!**/local.properties
+!**/.idea/caches
+!**/.idea/libraries
+!**/.idea/modules.xml
+!**/.idea/workspace.xml
+!**/.idea/navEditor.xml
+!**/.idea/assetWizardSettings.xml
+!**/build
+!**/captures
+!**/.externalNativeBuild
+!**/.cxx
+!**/local.properties
